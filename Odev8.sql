@@ -1,0 +1,76 @@
+--1.test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+    --CREATE TABLE employee2 (
+    --id SERIAL PRIMARY KEY,
+    --name VARCHAR(50) NOT NULL,
+    --birthday DATE,  
+  --  email VARCHAR(100)
+--);
+--2.Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+--insert into employee2 (name, birthday, email) values ('Ramona Lydiate', null, null);
+--insert into employee2 (name, birthday, email) values ('Ericha Bythway', '1921-01-16', null);
+--insert into employee2 (name, birthday, email) values ('Adi Sarney', null, 'asarney2@sun.com');
+--insert into employee2 (name, birthday, email) values ('Ingrid Fewkes', '1939-04-20', 'ifewkes3@google.ca');
+--insert into employee2 (name, birthday, email) values ('Cleon Forge', '1925-08-12', 'cforge4@imgur.com');
+--insert into employee2 (name, birthday, email) values ('Evelin Michurin', null, null);
+--insert into employee2 (name, birthday, email) values ('Chrystel Furlow', '1964-02-05', 'cfurlow6@who.int');
+--insert into employee2 (name, birthday, email) values ('Sheila Broader', '1942-06-10', 'sbroader7@nhs.uk');
+--insert into employee2 (name, birthday, email) values ('Morey Tockell', '1973-01-01', 'mtockell8@plala.or.jp');
+--insert into employee2 (name, birthday, email) values ('Viviana Ledger', '1937-03-01', null);
+--insert into employee2 (name, birthday, email) values ('Rick Darter', '1966-03-31', 'rdartera@infoseek.co.jp');
+--insert into employee2 (name, birthday, email) values ('Clifford Gregoraci', '1976-03-13', 'cgregoracib@lycos.com');
+--insert into employee2 (name, birthday, email) values ('Erasmus Bamlett', '1968-01-06', 'ebamlettc@qq.com');
+--insert into employee2 (name, birthday, email) values ('Ivy Fake', null, 'ifaked@adobe.com');
+--insert into employee2 (name, birthday, email) values ('Ammamaria Fuentez', '1945-03-25', 'afuenteze@weebly.com');
+--insert into employee2 (name, birthday, email) values ('Tandi Giorgione', '1944-10-30', 'tgiorgionef@dyndns.org');
+--insert into employee2 (name, birthday, email) values ('Clayborne Hinnerk', '1965-04-10', 'chinnerkg@time.com');
+--insert into employee2 (name, birthday, email) values ('Laverna Fardy', null, 'lfardyh@hostgator.com');
+--insert into employee2 (name, birthday, email) values ('Nicol Denness', null, 'ndennessi@addtoany.com');
+--insert into employee2 (name, birthday, email) values ('Jorie Chittie', '1966-02-13', 'jchittiej@japanpost.jp');
+--insert into employee2 (name, birthday, email) values ('Clementia Ivanchikov', '1954-02-05', 'civanchikovk@blogspot.com');
+--insert into employee2 (name, birthday, email) values ('Bruno Jouandet', '1991-11-09', 'bjouandetl@psu.edu');
+--insert into employee2 (name, birthday, email) values ('Babette L''Episcopi', '1922-04-17', 'blepiscopim@hp.com');
+--insert into employee2 (name, birthday, email) values ('Creigh Eccles', '1957-11-16', 'cecclesn@kickstarter.com');
+--insert into employee2 (name, birthday, email) values ('Colman Baggarley', '1936-08-06', 'cbaggarleyo@blog.com');
+--insert into employee2 (name, birthday, email) values ('Jannel Koopman', '1902-03-04', 'jkoopmanp@linkedin.com');
+--insert into employee2 (name, birthday, email) values ('Lucius LeEstut', '1982-08-21', 'lleestutq@vkontakte.ru');
+--insert into employee2 (name, birthday, email) values ('Salomi Scurman', '1962-06-18', 'sscurmanr@naver.com');
+--insert into employee2 (name, birthday, email) values ('Damita Hurche', '1957-01-19', 'dhurches@microsoft.com');
+--insert into employee2 (name, birthday, email) values ('Broderick Evennett', null, 'bevennettt@odnoklassniki.ru');
+--insert into employee2 (name, birthday, email) values ('Ruprecht Loyley', '1962-10-04', 'rloyleyu@va.gov');
+--insert into employee2 (name, birthday, email) values ('Frederico Sare', null, 'fsarev@cbsnews.com');
+--insert into employee2 (name, birthday, email) values ('Stacy Hamstead', '1963-12-23', 'shamsteadw@apple.com');
+--insert into employee2 (name, birthday, email) values ('Greta Kirstein', '1930-03-25', 'gkirsteinx@addtoany.com');
+--insert into employee2 (name, birthday, email) values ('Enrichetta Barnewall', null, 'ebarnewally@pcworld.com');
+--insert into employee2 (name, birthday, email) values ('Ludvig Ladson', '1991-06-26', null);
+--insert into employee2 (name, birthday, email) values ('Maddie Trank', '1929-04-08', 'mtrank10@newsvine.com');
+--insert into employee2 (name, birthday, email) values ('Caleb Pelosi', '1910-04-09', null);
+--insert into employee2 (name, birthday, email) values ('Waverley Hitter', '1938-08-08', null);
+--insert into employee2 (name, birthday, email) values ('Cindelyn Leese', null, 'cleese13@ox.ac.uk');
+--insert into employee2 (name, birthday, email) values ('Loralie Beccero', null, 'lbeccero14@elpais.com');
+--insert into employee2 (name, birthday, email) values ('Kalle Farrer', '1973-08-22', 'kfarrer15@amazon.co.uk');
+--insert into employee2 (name, birthday, email) values ('Carmelita Housegoe', '1919-12-26', 'chousegoe16@exblog.jp');
+--insert into employee2 (name, birthday, email) values ('Barris Beton', '1937-07-29', 'bbeton17@hp.com');
+--insert into employee2 (name, birthday, email) values ('Jackie Leng', '1923-06-16', 'jleng18@cnn.com');
+--insert into employee2 (name, birthday, email) values ('Lutero Peartree', '1937-09-16', 'lpeartree19@booking.com');
+--insert into employee2 (name, birthday, email) values ('Chad McRobb', '1957-04-15', 'cmcrobb1a@google.ca');
+--insert into employee2 (name, birthday, email) values ('Eugine Rispen', '1902-12-13', 'erispen1b@eventbrite.com');
+--insert into employee2 (name, birthday, email) values ('Ethe Roon', '1964-06-24', 'eroon1c@cbslocal.com');
+--insert into employee2 (name, birthday, email) values ('Barbi Hadny', '1924-11-27', 'bhadny1d@smh.com.au');
+
+--3.Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+--UPDATE employee2
+--SET name = 'Emrah Safa',
+--    birthday = '1988-01-01',
+--    email = 'emrah@gurkan.com'
+--WHERE id = 10;
+
+
+--4.Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+--DELETE FROM employee2
+--WHERE id = 3;
+
+--DELETE FROM employee2
+--WHERE name = 'Cleon Forge';
+
+--DELETE FROM employee2
+--WHERE id > 45;
